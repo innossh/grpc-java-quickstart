@@ -1,0 +1,4 @@
+rootProject.name = 'grpc-quickstart'
+include ":grpc-quickstart-server"
+
+project(':grpc-quickstart-server').projectDir = "$rootDir/server" as File
